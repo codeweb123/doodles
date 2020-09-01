@@ -1,11 +1,17 @@
 import React from 'react';
+import EventBoard from '../../features/events/eventBoard/EventBoard';
+import NavBar from '../../features/nav/NavBar';
+import { Container } from 'semantic-ui-react';
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <h1>Doodles</h1>
-    </div>
+    <>
+      <NavBar />
+      
+      <Container className='main'>
+      <EventBoard />
+      </Container>
+    </>
   );
 }
-
-export default App;

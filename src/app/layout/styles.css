@@ -1,3 +1,11 @@
-.App {
-  text-align: center;
+body {
+  background-color: #eaeaea;
+}
+
+.ui.fixed.menu {
+  background-color: #71effb;
+}
+
+.ui.main.container {
+  background-color: #d4f2f5
 }
