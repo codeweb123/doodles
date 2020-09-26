@@ -1,10 +1,10 @@
 import React from 'react'
-import { Menu, Container, Button } from 'semantic-ui-react';
+import { Menu, Button } from 'semantic-ui-react';
 
 export default function Navbar({setFormOpen}) {
     return (
         <Menu fixed='top'>
-            <Container>
+            
                 <Menu.Item header>
                     <img src="/assets/logo.png" alt="logo" style={{marginRight: 15}}/>
                     SpaceCoastDoodles
@@ -17,7 +17,7 @@ export default function Navbar({setFormOpen}) {
                     <Button basic content='Login' />
                     <Button basic content='SignUp'  style={{marginLeft: '0.5em'}}/>
                 </Menu.Item>
-            </Container>
+        
         </Menu>
     )
 }
